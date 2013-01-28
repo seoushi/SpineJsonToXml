@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<animation>
+  <bones>
+    <bone name="left upper leg">
+      <properties name="rotate">
+        <frame angle="-26.55" time="0"/>
+        <frame angle="-8.78" time="0.1333"/>
+        <frame angle="9.51" time="0.2666"/>
+        <frame angle="30.74" time="0.4"/>
+        <frame angle="25.33" time="0.5333"/>
+        <frame angle="26.11" time="0.6666"/>
+        <frame angle="-7.7" time="0.8"/>
+        <frame angle="-21.19" time="0.9333"/>
+        <frame angle="-26.55" time="1.0666"/>
+      </properties>
+      <properties name="translate">
+        <frame time="0" x="-3" y="-2.25"/>
+        <frame time="0.4" x="-2.18" y="-2.25"/>
+        <frame time="1.0666" x="-3" y="-2.25"/>
+      </properties>
+    </bone>
+    <bone name="right upper leg">
+      <properties name="rotate">
+        <frame angle="42.45" time="0"/>
+        <frame angle="52.1" time="0.1333"/>
+        <frame angle="5.96" time="0.2666"/>
+        <frame angle="-16.93" time="0.5333"/>
+        <frame angle="1.89" time="0.6666"/>
+        <frame angle="28.06" curve="0.462,0.11,1,1" time="0.8"/>
+        <frame angle="58.68" curve="0.5,0.02,1,1" time="0.9333"/>
+        <frame angle="42.45" time="1.0666"/>
+      </properties>
+      <properties name="translate">
+        <frame time="0" x="8.11" y="-2.36"/>
+        <frame time="0.1333" x="10.03" y="-2.56"/>
+        <frame time="0.4" x="2.76" y="-2.97"/>
+        <frame time="0.5333" x="2.76" y="-2.81"/>
+        <frame time="0.9333" x="8.67" y="-2.54"/>
+        <frame time="1.0666" x="8.11" y="-2.36"/>
+      </properties>
+    </bone>
+    <bone name="left lower leg">
+      <properties name="rotate">
+        <frame angle="-10.21" time="0"/>
+        <frame angle="-55.64" time="0.1333"/>
+        <frame angle="-68.12" time="0.2666"/>
+        <frame angle="5.11" time="0.5333"/>
+        <frame angle="-28.29" time="0.6666"/>
+        <frame angle="4.08" time="0.8"/>
+        <frame angle="3.53" time="0.9333"/>
+        <frame angle="-10.21" time="1.0666"/>
+      </properties>
+    </bone>
+    <bone name="left foot">
+      <properties name="rotate">
+        <frame angle="-3.69" time="0"/>
+        <frame angle="-10.42" time="0.1333"/>
+        <frame angle="-17.14" time="0.2666"/>
+        <frame angle="-2.83" time="0.4"/>
+        <frame angle="-3.87" time="0.5333"/>
+        <frame angle="2.78" time="0.6666"/>
+        <frame angle="1.68" time="0.8"/>
+        <frame angle="-8.54" time="0.9333"/>
+        <frame angle="-3.69" time="1.0666"/>
+      </properties>
+    </bone>
+    <bone name="right shoulder">
+      <properties name="rotate">
+        <frame angle="20.89" curve="0.264,0,0.75,1" time="0"/>
+        <frame angle="3.72" curve="0.272,0,0.841,1" time="0.1333"/>
+        <frame angle="-278.28" time="0.6666"/>
+        <frame angle="20.89" time="1.0666"/>
+      </properties>
+      <properties name="translate">
+        <frame time="0" x="-7.84" y="7.19"/>
+        <frame time="0.1333" x="-6.36" y="6.42"/>
+        <frame time="0.6666" x="-11.07" y="5.25"/>
+        <frame time="1.0666" x="-7.84" y="7.19"/>
+      </properties>
+    </bone>
+    <bone name="right arm">
+      <properties name="rotate">
+        <frame angle="-4.02" curve="0.267,0,0.804,0.99" time="0"/>
+        <frame angle="-13.99" curve="0.341,0,1,1" time="0.1333"/>
+        <frame angle="36.54" curve="0.307,0,0.787,0.99" time="0.6666"/>
+        <frame angle="-4.02" time="1.0666"/>
+      </properties>
+    </bone>
+    <bone name="right hand">
+      <properties name="rotate">
+        <frame angle="22.92" time="0"/>
+        <frame angle="-8.97" time="0.4"/>
+        <frame angle="0.51" time="0.6666"/>
+        <frame angle="22.92" time="1.0666"/>
+      </properties>
+    </bone>
+    <bone name="left shoulder">
+      <properties name="rotate">
+        <frame angle="-1.47" time="0"/>
+        <frame angle="13.6" time="0.1333"/>
+        <frame angle="280.74" time="0.6666"/>
+        <frame angle="-1.47" time="1.0666"/>
+      </properties>
+      <properties name="translate">
+        <frame time="0" x="-1.76" y="0.56"/>
+        <frame time="0.6666" x="-2.47" y="8.14"/>
+        <frame time="1.0666" x="-1.76" y="0.56"/>
+      </properties>
+    </bone>
+    <bone name="left hand">
+      <properties name="rotate">
+        <frame angle="11.58" curve="0.169,0.37,0.632,1.55" time="0"/>
+        <frame angle="28.13" curve="0.692,0,0.692,0.99" time="0.1333"/>
+        <frame angle="-27.42" curve="0.117,0.41,0.738,1.76" time="0.6666"/>
+        <frame angle="-36.32" time="0.8"/>
+        <frame angle="11.58" time="1.0666"/>
+      </properties>
+    </bone>
+    <bone name="left arm">
+      <properties name="rotate">
+        <frame angle="-8.27" time="0"/>
+        <frame angle="18.43" time="0.1333"/>
+        <frame angle="0.88" time="0.6666"/>
+        <frame angle="-8.27" time="1.0666"/>
+      </properties>
+    </bone>
+    <bone name="torso">
+      <properties name="rotate">
+        <frame angle="-10.28" time="0"/>
+        <frame angle="-15.38" curve="0.545,0,1,1" time="0.1333"/>
+        <frame angle="-9.78" curve="0.58,0.17,1,1" time="0.4"/>
+        <frame angle="-15.75" time="0.6666"/>
+        <frame angle="-7.06" time="0.9333"/>
+        <frame angle="-10.28" time="1.0666"/>
+      </properties>
+      <properties name="translate">
+        <frame time="0" x="-3.67" y="1.68"/>
+        <frame time="0.1333" x="-3.67" y="0.68"/>
+        <frame time="0.4" x="-3.67" y="1.97"/>
+        <frame time="0.6666" x="-3.67" y="-0.14"/>
+        <frame time="1.0666" x="-3.67" y="1.68"/>
+      </properties>
+    </bone>
+    <bone name="right foot">
+      <properties name="rotate">
+        <frame angle="-5.25" time="0"/>
+        <frame angle="-4.08" time="0.2666"/>
+        <frame angle="-6.45" time="0.4"/>
+        <frame angle="-5.39" time="0.5333"/>
+        <frame angle="-11.68" time="0.8"/>
+        <frame angle="0.46" time="0.9333"/>
+        <frame angle="-5.25" time="1.0666"/>
+      </properties>
+    </bone>
+    <bone name="right lower leg">
+      <properties name="rotate">
+        <frame angle="-3.39" time="0"/>
+        <frame angle="-45.53" time="0.1333"/>
+        <frame angle="-2.59" time="0.2666"/>
+        <frame angle="-19.53" time="0.5333"/>
+        <frame angle="-64.8" time="0.6666"/>
+        <frame angle="-82.56" curve="0.557,0.18,1,1" time="0.8"/>
+        <frame angle="-3.39" time="1.0666"/>
+      </properties>
+    </bone>
+    <bone name="hip">
+      <properties name="rotate">
+        <frame angle="0" curve="stepped" time="0"/>
+        <frame angle="0" time="1.0666"/>
+      </properties>
+      <properties name="translate">
+        <frame time="0" x="0" y="0"/>
+        <frame curve="0.272,0.86,1,1" time="0.1333" x="0" y="-7.61"/>
+        <frame time="0.4" x="0" y="8.7"/>
+        <frame time="0.5333" x="0" y="-0.41"/>
+        <frame curve="0.235,0.89,1,1" time="0.6666" x="0" y="-7.05"/>
+        <frame time="0.8" x="0" y="2.92"/>
+        <frame time="0.9333" x="0" y="6.78"/>
+        <frame time="1.0666" x="0" y="0"/>
+      </properties>
+    </bone>
+    <bone name="neck">
+      <properties name="rotate">
+        <frame angle="3.6" time="0"/>
+        <frame angle="17.49" time="0.1333"/>
+        <frame angle="6.1" time="0.2666"/>
+        <frame angle="3.45" time="0.4"/>
+        <frame angle="5.17" time="0.5333"/>
+        <frame angle="18.36" time="0.6666"/>
+        <frame angle="6.09" time="0.8"/>
+        <frame angle="2.28" time="0.9333"/>
+        <frame angle="3.6" time="1.0666"/>
+      </properties>
+    </bone>
+    <bone name="head">
+      <properties name="rotate">
+        <frame angle="3.6" curve="0,0,0.704,1.61" time="0"/>
+        <frame angle="-0.2" time="0.1666"/>
+        <frame angle="6.1" time="0.2666"/>
+        <frame angle="3.45" time="0.4"/>
+        <frame angle="5.17" curve="0,0,0.704,1.61" time="0.5333"/>
+        <frame angle="1.1" time="0.7"/>
+        <frame angle="6.09" time="0.8"/>
+        <frame angle="2.28" time="0.9333"/>
+        <frame angle="3.6" time="1.0666"/>
+      </properties>
+    </bone>
+  </bones>
+</animation>

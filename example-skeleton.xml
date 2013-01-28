@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<skeleton>
+  <bones>
+    <bone name="root" parent="" rotation="" scaleX="" scaleY="" x="" y=""/>
+    <bone name="hip" parent="root" rotation="" scaleX="" scaleY="" x="0.64" y="114.41"/>
+    <bone name="left upper leg" parent="hip" rotation="-89.09" scaleX="" scaleY="" x="14.45" y="2.81"/>
+    <bone name="left lower leg" parent="left upper leg" rotation="-16.65" scaleX="" scaleY="" x="51.78" y="3.46"/>
+    <bone name="left foot" parent="left lower leg" rotation="102.43" scaleX="" scaleY="" x="64.02" y="-8.67"/>
+    <bone name="right upper leg" parent="hip" rotation="-101.13" scaleX="" scaleY="" x="-18.27" y=""/>
+    <bone name="right lower leg" parent="right upper leg" rotation="-10.7" scaleX="" scaleY="" x="50.21" y="0.6"/>
+    <bone name="right foot" parent="right lower leg" rotation="110.3" scaleX="" scaleY="" x="64.88" y="0.04"/>
+    <bone name="torso" parent="hip" rotation="94.95" scaleX="" scaleY="" x="-6.42" y="1.97"/>
+    <bone name="neck" parent="torso" rotation="0.9" scaleX="" scaleY="" x="83.64" y="-1.78"/>
+    <bone name="head" parent="neck" rotation="-8.94" scaleX="" scaleY="" x="19.09" y="6.97"/>
+    <bone name="right shoulder" parent="torso" rotation="130.6" scaleX="" scaleY="" x="81.9" y="6.79"/>
+    <bone name="right arm" parent="right shoulder" rotation="40.12" scaleX="" scaleY="" x="49.95" y="-0.12"/>
+    <bone name="right hand" parent="right arm" rotation="2.35" scaleX="" scaleY="" x="36.9" y="0.34"/>
+    <bone name="left shoulder" parent="torso" rotation="-156.96" scaleX="" scaleY="" x="78.96" y="-15.75"/>
+    <bone name="left arm" parent="left shoulder" rotation="28.16" scaleX="" scaleY="" x="44.19" y="-0.01"/>
+    <bone name="left hand" parent="left arm" rotation="2.7" scaleX="" scaleY="" x="35.62" y="0.07"/>
+    <bone name="pelvis" parent="hip" rotation="" scaleX="" scaleY="" x="1.41" y="-6.57"/>
+  </bones>
+  <slots>
+    <slot bone="root" color="ff898c86" name="template"/>
+    <slot attachment="left-shoulder" bone="left shoulder" name="left shoulder"/>
+    <slot attachment="left-arm" bone="left arm" name="left arm"/>
+    <slot attachment="left-hand" bone="left hand" name="left hand"/>
+    <slot attachment="left-foot" bone="left foot" name="left foot"/>
+    <slot attachment="left-lower-leg" bone="left lower leg" name="left lower leg"/>
+    <slot attachment="left-upper-leg" bone="left upper leg" name="left upper leg"/>
+    <slot attachment="pelvis" bone="pelvis" name="pelvis"/>
+    <slot attachment="right-foot" bone="right foot" name="right foot"/>
+    <slot attachment="right-lower-leg" bone="right lower leg" name="right lower leg"/>
+    <slot attachment="right-upper-leg" bone="right upper leg" name="right upper leg"/>
+    <slot attachment="torso" bone="torso" name="torso"/>
+    <slot attachment="neck" bone="neck" name="neck"/>
+    <slot attachment="head" bone="head" name="head"/>
+    <slot attachment="eyes" bone="head" name="eyes"/>
+    <slot attachment="right-shoulder" bone="right shoulder" name="right shoulder"/>
+    <slot attachment="right-arm" bone="right arm" name="right arm"/>
+    <slot attachment="right-hand" bone="right hand" name="right hand"/>
+  </slots>
+  <skins>
+    <skin name="default">
+      <slot name="template">
+        <attachment name="spineboy" y="167.82"/>
+      </slot>
+      <slot name="left shoulder">
+        <attachment name="left-shoulder" rotation="0.11" x="23.74" y="0.11"/>
+      </slot>
+      <slot name="left arm">
+        <attachment name="left-arm" rotation="-0.44" x="15.11" y="-0.44"/>
+      </slot>
+      <slot name="left hand">
+        <attachment name="left-hand" rotation="1.86" x="0.75" y="1.86"/>
+      </slot>
+      <slot name="left foot">
+        <attachment name="left-foot" rotation="8.88" x="24.35" y="8.88"/>
+      </slot>
+      <slot name="left lower leg">
+        <attachment name="left-lower-leg" rotation="-1.92" x="24.55" y="-1.92"/>
+      </slot>
+      <slot name="left upper leg">
+        <attachment name="left-upper-leg" rotation="-1.85" x="26.12" y="-1.85"/>
+      </slot>
+      <slot name="pelvis">
+        <attachment name="pelvis" x="-4.83" y="10.62"/>
+      </slot>
+      <slot name="right foot">
+        <attachment name="right-foot" rotation="8.47" x="19.02" y="8.47"/>
+      </slot>
+      <slot name="right lower leg">
+        <attachment name="right-lower-leg" rotation="-2.59" x="23.28" y="-2.59"/>
+      </slot>
+      <slot name="right upper leg">
+        <attachment name="right-upper-leg" rotation="0.25" x="23.03" y="0.25"/>
+      </slot>
+      <slot name="torso">
+        <attachment name="torso" rotation="-7.08" x="44.57" y="-7.08"/>
+      </slot>
+      <slot name="neck">
+        <attachment name="neck" rotation="-3.66" x="9.42" y="-3.66"/>
+      </slot>
+      <slot name="head">
+        <attachment name="head" rotation="-5.75" x="53.94" y="-5.75"/>
+      </slot>
+      <slot name="eyes">
+        <attachment name="eyes" rotation="-32.92" x="28.94" y="-32.92"/>
+        <attachment name="eyes-closed" rotation="-32.86" x="28.77" y="-32.86"/>
+      </slot>
+      <slot name="right shoulder">
+        <attachment name="right-shoulder" rotation="0.03" x="25.86" y="0.03"/>
+      </slot>
+      <slot name="right arm">
+        <attachment name="right-arm" rotation="-2.64" x="18.34" y="-2.64"/>
+      </slot>
+      <slot name="right hand">
+        <attachment name="right-hand" rotation="1.25" x="6.82" y="1.25"/>
+      </slot>
+    </skin>
+  </skins>
+</skeleton>
